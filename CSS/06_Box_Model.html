@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Box Model</title>
+	<style>
+/*CSS Resteting */
+	*{
+			margin: 0;
+			padding:0 ;
+			box-sizing: border-box;
+		}
+	.box{
+		background-color: cornflowerblue;
+		border: 3px solid red ;
+		border-radius: 10px;
+		width: 500px;
+
+/*padding all side*/
+		padding: 20px;
+
+/* Padding per Side
+	
+		padding-top: 10px;
+		padding-right: 20px;
+		padding-bottom: 10px;
+		padding-left: 10px;   */
+
+/* Padding shorthand = top , Right, Bottom, Left */
+		padding: 10px 20px 10px 20px;
+
+/* Padding shorthand = Top/Bottom , Right/Left */
+		padding: 10px 20px ;
+
+/*Margin all side*/
+		margin: 20px;
+
+	}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h3>Box one</h3>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ratione expedita esse provident laudantium possimus maxime dolorum labore ipsa nihil.</p>
+	</div>
+	<div class="box">
+		<h3>Box Two</h3>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ratione expedita esse provident laudantium possimus maxime dolorum labore ipsa nihil.</p>
+	</div>s
+</body>
+</html>

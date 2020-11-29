@@ -1,0 +1,16 @@
+{
+	"editor.acceptSuggestionOnEnter": "smart",
+	"editor.tabSize": 2,
+	"editor.tabCompletion": "on",
+	"window.closeWhenEmpty": true,
+	"search.maintainFileSearchCache": true,
+	"search.quickOpen.includeSymbols": true,
+	"search.searchEditor.reusePriorSearchConfiguration": true,
+	"search.seedOnFocus": true,
+	"search.showLineNumbers": true,
+	"search.smartCase": true,
+	"editor.stablePeek": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.scrollToSwitchTabs": true,
+	"emmet.triggerExpansionOnTab": true
+}

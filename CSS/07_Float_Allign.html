@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Float & Align</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+			line-height: 1.4em;
+			}
+			
+		.container{
+			max-width: 960px;
+			margin:30px auto
+			}
+		.clr{
+			clear: both;
+		}	
+		.box {
+			background-color: lightgrey;
+			border : 5px solid purple ;
+			padding: 20px;
+			margin: 10px;
+		}
+		.box p {
+			/* Text Align */
+			text-align: justify;
+		}	
+		#box-2{
+			float: left;
+			width: 68%;
+		}
+		#box-3{
+			float:right;
+			width: 30%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		 <div id ="box-1" class="box">
+			 <h3>Box One</h3>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, doloribus corporis reprehenderit odit dolorum est quia. Dolorum ipsa deleniti earum, velit quos, explicabo itaque, maiores ea enim minima at mollitia!</p>
+		 </div>
+		 
+		 <div id ="box-2" class="box">
+			 <h3>Box Two</h3>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, doloribus corporis reprehenderit odit dolorum est quia. Dolorum ipsa deleniti earum, velit quos, explicabo itaque, maiores ea enim minima at mollitia!</p>
+		 </div>
+		 
+		 <div id="box-3" class="box">
+			 <h3>Box Threes</h3>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, doloribus corporis reprehenderit odit dolorum est quia. Dolorum ipsa deleniti earum, velit quos, explicabo itaque, maiores ea enim minima at mollitia!</p>
+		 </div>
+		 <div class="clr"></div>
+		 <div id="box-4" class="box">
+			 <h3>Box four</h3>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, doloribus corporis reprehenderit odit dolorum est quia. Dolorum ipsa deleniti earum, velit quos, explicabo itaque, maiores ea enim minima at mollitia!</p>
+		 </div>
+	</div>
+</body>
+</html>
